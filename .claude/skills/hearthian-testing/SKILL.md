@@ -41,17 +41,18 @@ configura, não.
 ```ts
 import { describe, expect, it } from "vitest";
 import { parseSave } from "./parseSave.js";
-import early from "../../fixtures/early.json";
+import early from "../../fixtures/early.owsave.json";
 
 describe("parseSave", () => {
   it("marks facts with a reveal order as revealed", () => {
-    const snapshot = parseSave(JSON.stringify(early));
-    expect(snapshot.facts.get(factId("TH_VILLAGE_X1"))?.revealed).toBe(true);
+    const result = parseSave(JSON.stringify(early), { contentHash: "h", capturedAt: 0 });
+    if (!result.ok) throw new Error(result.error.kind);
+    expect(result.snapshot.facts.get(factId("TH_VILLAGE_X1"))?.revealed).toBe(true);
   });
 
   it("returns a partial-write error for truncated json", () => {
-    const result = parseSave(JSON.stringify(early).slice(0, 200));
-    expect(result).toMatchObject({ kind: "partial-write" });
+    const result = parseSave(JSON.stringify(early).slice(0, 200), { contentHash: "h", capturedAt: 0 });
+    expect(result).toMatchObject({ ok: false, error: { kind: "partial-write" } });
   });
 });
 ```

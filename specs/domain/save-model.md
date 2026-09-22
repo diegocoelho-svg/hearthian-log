@@ -64,7 +64,7 @@ antigas, mas não há evidência de que isso exista.
 ### Campos ignorados
 
 `secondsRemainingOnWarp`, `loopCountOnParadox`, `shownPopups`, `ps5Activity_*`,
-`didRunInitGammaSetting`. Preservados pelo `.passthrough()`, nunca lidos.
+`didRunInitGammaSetting`. Preservados pelo objeto tolerante do Zod (`.loose()`), nunca lidos.
 
 ### `FactSave`
 
@@ -151,9 +151,22 @@ type CounterKey = 'burnedMarshmallows' | 'perfectMarshmallows' | 'lastDeathType'
 
 ## Estratégia do parser
 
-1. Zod com `.passthrough()` em todo objeto: campo desconhecido é preservado, não derruba
+```ts
+parseSave(text: string, options: { contentHash; capturedAt; knownFactIds? }): ParseSaveResult
+
+type ParseSaveResult =
+  | { ok: true; snapshot: SaveSnapshot }
+  | { ok: false; error: SaveParseError }
+```
+
+O `core` não calcula hash nem lê relógio: `contentHash` e `capturedAt` vêm de quem leu o
+arquivo (`save-io`, com `node:crypto`). `knownFactIds` é o conjunto de ids da tabela de
+conteúdo; ausente, `unknownFactIds` sai vazio.
+
+1. Zod 4 com `z.looseObject` em todo objeto: campo desconhecido é preservado, não derruba
 2. Detecção de versão pela **forma** (quais campos existem), não pelo `version` do arquivo
-3. Falha tipada: `SaveParseError { kind: 'invalid-json' | 'unsupported-shape' | 'partial-write' }`
+3. Falha tipada: `SaveParseError { kind: 'invalid-json' | 'unsupported-shape' | 'partial-write' }`.
+   `partial-write` é JSON inválido cujo texto não termina em `}`; `invalid-json` é o resto
 4. `partial-write` é esperado: o watcher tenta de novo depois de `awaitWriteFinish`; só vira
    erro visível depois de N tentativas
 5. Sucesso parcial é sucesso: se `facts` parseia mas `signals` não, o snapshot sai com
@@ -177,6 +190,8 @@ diffSnapshots(previous: SaveSnapshot | null, next: SaveSnapshot): SaveEvent[]
 | `SaveReset` | `loopCount` diminuiu ou fatos revelados sumiram — jogador começou de novo |
 
 `previous === null` (primeira leitura) não gera eventos: não notificamos o passado.
+`SaveReset` sai sozinho: quando o save recomeçou, o resto da comparação é contra um passado
+que não existe mais. `FactRevealed` vem em ordem de `revealOrder`.
 
 ## O que ainda não foi confirmado
 

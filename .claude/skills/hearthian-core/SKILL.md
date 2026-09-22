@@ -22,7 +22,7 @@ core/src/
 ├── spoiler/      SpoilerLevel, projectView, projectToast, projectAchievements
 ├── achievements/ AchievementSource (interface), AchievementState, reachability, suggestedOrder
 ├── content/      LoadedContent (tipos do que core aceita como conteúdo), ContentSchemaVersion
-└── ids.ts        FactId, EntryId, LocationId, CuriosityId, SignalId, FrequencyId, AchievementId
+└── ids.ts        FactId, EntryId, LocationId, CuriosityId, SignalId, FrequencyIndex, AchievementId
 
 save-io/src/
 ├── locator/      findSaveCandidates, pickSave, storePaths
@@ -42,7 +42,7 @@ steam/src/
 - **Erro tipado, não `throw new Error('...')`.** `SaveParseError` com `kind` discriminado.
 - **Resultado parcial é sucesso.** Parser devolve snapshot com `warnings`, não falha por
   campo secundário.
-- **Zod `.passthrough()`** em todo objeto do save. Campo desconhecido é preservado.
+- **Zod 4 `z.looseObject`** em todo objeto do save. Campo desconhecido é preservado.
 - **Primeira leitura não gera evento.** `diffSnapshots(null, next)` devolve `[]`.
 
 ## Projeção — o código mais sensível do repo

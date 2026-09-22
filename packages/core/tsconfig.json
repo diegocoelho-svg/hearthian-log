@@ -1,0 +1,4 @@
+{
+  "extends": "@hearthian/config/tsconfig.pure.json",
+  "include": ["src", "fixtures"]
+}

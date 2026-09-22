@@ -71,7 +71,7 @@ SaveLocator ──► SaveWatcher ──► readFile ──► hash ──► pa
 |---|---|---|---|
 | `SaveLocator` | save-io | Candidatos Steam e Epic, caminho manual, escolhe o mais recente | Unit com fs em tmp dir |
 | `SaveWatcher` | save-io | `chokidar` com `awaitWriteFinish`, debounce, ignora se hash igual | Unit com escrita em etapas em tmp dir |
-| `parseSave` | core | JSON → `SaveSnapshot`; Zod `passthrough`; versão por forma; erro tipado | Unit contra fixtures |
+| `parseSave` | core | JSON → `SaveSnapshot`; Zod tolerante (`.loose()`); versão por forma; erro tipado | Unit contra fixtures |
 | `diffSnapshots` | core | Gera `FactRevealed`, `FactRead`, `SignalLearned`, `LoopCompleted`, `FlagRaised` | Unit puro |
 | `ProgressEngine` | core | Contagens por local, curiosidade, geral, não lidos, conquistas "ao alcance" | Unit puro |
 | `projectView` | core | Aplica o nível de spoiler e devolve a `View` do contrato | Unit puro — é o teste mais importante do repo |

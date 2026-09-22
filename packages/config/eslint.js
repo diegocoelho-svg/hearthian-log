@@ -20,6 +20,7 @@ export const base = defineConfig(
       parserOptions: { projectService: true },
     },
     rules: {
+      "@typescript-eslint/consistent-type-definitions": ["error", "type"],
       "@typescript-eslint/consistent-type-imports": "error",
     },
   },

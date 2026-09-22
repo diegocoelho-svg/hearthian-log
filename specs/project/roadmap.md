@@ -29,8 +29,8 @@ workspace, config compartilhada e fixtures prontos.
 ## Fases
 
 ### Fase 0 — Fundação
-- [ ] pnpm workspace + turbo + `packages/config` (tsconfig, eslint, vitest base)
-- [ ] `packages/core` com `SaveSnapshot`, parser tolerante, diff e testes contra fixture
+- [x] pnpm workspace + turbo + `packages/config` (tsconfig, eslint, vitest base)
+- [x] `packages/core` com `SaveSnapshot`, parser tolerante, diff e testes contra fixture
 - [ ] `packages/content` com schemas Zod e script `validate`
 - [ ] `packages/contracts` com canais IPC e schemas das projeções
 - [ ] CI: typecheck, lint, test, validate content
@@ -74,7 +74,7 @@ workspace, config compartilhada e fixtures prontos.
 
 | Risco | Impacto | Mitigação |
 |---|---|---|
-| Nomes dos campos do save diferentes do assumido | 🔴 Bloqueia a Fase 0 | Abrir save real antes de codar; parser `passthrough` e versão por forma |
+| Nomes dos campos do save diferentes do assumido | 🔴 Bloqueia a Fase 0 | Abrir save real antes de codar; parser tolerante e versão por forma |
 | Conteúdo vazar para o renderer por engano | 🔴 Quebra a promessa do produto | Fronteira de dependência + lint + teste que falha se `content` aparecer no bundle do renderer |
 | `steamworks.js` fazer a Steam achar que o jogo está rodando | 🟡 | Mesmo trade-off do SteamAchievementNotifier; documentar e permitir desligar |
 | Dump comunitário incompleto ou de versão antiga | 🟡 | Versionar conteúdo por versão do jogo; validar contra IDs vistos em saves reais |
