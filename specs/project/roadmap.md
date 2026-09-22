@@ -4,8 +4,8 @@ tags: [hearthian-log, roadmap]
 
 # Roadmap
 
-**Fase atual:** Fase 0 (Fundação), branch `feat/foundation`. Checklist aprovado em 2026-09-21;
-workspace, config compartilhada e fixtures prontos.
+**Fase atual:** Fase 0 (Fundação) concluída em 2026-09-22 na branch `feat/foundation`.
+Próximo passo é a Fase 1, começando por uma spec do dashboard (`specs/domain/dashboard.md`).
 
 > Antes de implementar qualquer item, leia [Arquitetura](../domain/arquitetura.md) e a spec do
 > que vai construir. Spec aprovada antes de código — ver [CONTRIBUTING](../../CONTRIBUTING.md).
@@ -33,8 +33,8 @@ workspace, config compartilhada e fixtures prontos.
 - [x] `packages/core` com `SaveSnapshot`, parser tolerante, diff e testes contra fixture
 - [x] `packages/content` com schemas Zod e script `validate`
 - [x] `packages/contracts` com canais IPC e schemas das projeções
-- [ ] CI: typecheck, lint, test, validate content
-- [ ] README de portfólio
+- [x] CI: typecheck, lint, test, validate content
+- [x] README de portfólio
 
 ### Fase 1 — MVP publicável ★
 - [ ] `packages/save-io`: locator Steam/Epic + caminho manual, watcher com debounce e hash
