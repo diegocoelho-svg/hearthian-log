@@ -64,7 +64,7 @@ antigas, mas não há evidência de que isso exista.
 ### Campos ignorados
 
 `secondsRemainingOnWarp`, `loopCountOnParadox`, `shownPopups`, `ps5Activity_*`,
-`didRunInitGammaSetting`. Preservados pelo `.passthrough()`, nunca lidos.
+`didRunInitGammaSetting`. Preservados pelo objeto tolerante do Zod (`.loose()`), nunca lidos.
 
 ### `FactSave`
 
@@ -151,9 +151,22 @@ type CounterKey = 'burnedMarshmallows' | 'perfectMarshmallows' | 'lastDeathType'
 
 ## Estratégia do parser
 
-1. Zod com `.passthrough()` em todo objeto: campo desconhecido é preservado, não derruba
+```ts
+parseSave(text: string, options: { contentHash; capturedAt; knownFactIds? }): ParseSaveResult
+
+type ParseSaveResult =
+  | { ok: true; snapshot: SaveSnapshot }
+  | { ok: false; error: SaveParseError }
+```
+
+O `core` não calcula hash nem lê relógio: `contentHash` e `capturedAt` vêm de quem leu o
+arquivo (`save-io`, com `node:crypto`). `knownFactIds` é o conjunto de ids da tabela de
+conteúdo; ausente, `unknownFactIds` sai vazio.
+
+1. Zod 4 com `z.looseObject` em todo objeto: campo desconhecido é preservado, não derruba
 2. Detecção de versão pela **forma** (quais campos existem), não pelo `version` do arquivo
-3. Falha tipada: `SaveParseError { kind: 'invalid-json' | 'unsupported-shape' | 'partial-write' }`
+3. Falha tipada: `SaveParseError { kind: 'invalid-json' | 'unsupported-shape' | 'partial-write' }`.
+   `partial-write` é JSON inválido cujo texto não termina em `}`; `invalid-json` é o resto
 4. `partial-write` é esperado: o watcher tenta de novo depois de `awaitWriteFinish`; só vira
    erro visível depois de N tentativas
 5. Sucesso parcial é sucesso: se `facts` parseia mas `signals` não, o snapshot sai com
@@ -177,6 +190,8 @@ diffSnapshots(previous: SaveSnapshot | null, next: SaveSnapshot): SaveEvent[]
 | `SaveReset` | `loopCount` diminuiu ou fatos revelados sumiram — jogador começou de novo |
 
 `previous === null` (primeira leitura) não gera eventos: não notificamos o passado.
+`SaveReset` sai sozinho: quando o save recomeçou, o resto da comparação é contra um passado
+que não existe mais. `FactRevealed` vem em ordem de `revealOrder`.
 
 ## O que ainda não foi confirmado
 
@@ -190,13 +205,19 @@ diffSnapshots(previous: SaveSnapshot | null, next: SaveSnapshot): SaveEvent[]
 
 ## Fixtures
 
-`packages/core/fixtures/*.owsave.json`, anonimizadas: sem nome de perfil, sem caminho real,
-contadores e `revealOrder` embaralhados para não reproduzir um save de verdade. Mínimo para a
-Fase 0:
+`packages/core/fixtures/`, derivadas de um save real da `1.1.16.1372` e anonimizadas: sem nome
+de perfil, sem caminho real, contadores e `revealOrder` gerados do zero para não reproduzir um
+save de verdade. Os 375 `FactId`s e as chaves de `dictConditions` são dados do jogo e ficam
+como estão — o denominador do progresso depende disso.
 
-- `empty.json` — jogo novo: todos os fatos com `revealOrder: -1`, `loopCount` baixo
-- `early.json` — poucos loops, dois ou três locais visitados
-- `partial-write.json` — JSON truncado
-- `unknown-shape.json` — JSON válido sem os campos esperados
+- `empty.owsave.json` — jogo novo sintético: todos os fatos com `revealOrder: -1`, `loopCount: 1`,
+  só a frequência de índice 0 conhecida, `knownSignals` e `dictConditions` vazios. Não veio de
+  um save de jogo novo real; se um aparecer, substitui este
+- `early.owsave.json` — 4 loops, 3 locais visitados (`TH_`, `TM_` e um terço dos `BH_`), 45
+  fatos revelados com `revealOrder` por lote, 2 `newlyRevealed`, 1 fato não revelado com
+  `read: true` para exercitar a normalização, sinais e flags com `true` e `false`
+- `partial-write.owsave.txt` — `early` truncado no meio de um fato; é `.txt` porque não parseia
+- `unknown-shape.owsave.json` — JSON válido sem nenhum dos campos esperados
 
-Saves reais ficam em `fixtures/private/`, ignorado pelo git.
+O script que gera as duas primeiras a partir de `fixtures/private/` não é versionado. Saves
+reais ficam em `fixtures/private/`, ignorado pelo git.

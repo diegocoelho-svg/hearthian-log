@@ -4,8 +4,8 @@ tags: [hearthian-log, roadmap]
 
 # Roadmap
 
-**Fase atual:** arquitetura. Stack e estrutura decididas, modelos especificados, **nenhuma linha
-de código escrita ainda**. Próximo passo é a Fase 0.
+**Fase atual:** Fase 0 (Fundação) concluída em 2026-09-22 na branch `feat/foundation`.
+Próximo passo é a Fase 1, começando por uma spec do dashboard (`specs/domain/dashboard.md`).
 
 > Antes de implementar qualquer item, leia [Arquitetura](../domain/arquitetura.md) e a spec do
 > que vai construir. Spec aprovada antes de código — ver [CONTRIBUTING](../../CONTRIBUTING.md).
@@ -22,19 +22,19 @@ de código escrita ainda**. Próximo passo é a Fase 0.
 
 - [x] **Abrir um save real e confirmar os nomes dos campos** — [save-model.md](../domain/save-model.md) atualizado em 2026-09-21
 - [ ] **Confirmar quando o jogo grava o save** (fato revelado? só fim de loop?) — watcher durante uma sessão; ver "O que ainda não foi confirmado" em save-model.md
-- [ ] Criar a primeira fixture anonimizada de save em `packages/core/fixtures/`
+- [x] Criar a primeira fixture anonimizada de save em `packages/core/fixtures/` — 2026-09-21
 - [ ] Localizar dump comunitário do Ship Log e registrar a fonte em [content-model.md](../domain/content-model.md)
-- [ ] Aprovar checklist da Fase 0
+- [x] Aprovar checklist da Fase 0 — 2026-09-21
 
 ## Fases
 
 ### Fase 0 — Fundação
-- [ ] pnpm workspace + turbo + `packages/config` (tsconfig, eslint, vitest base)
-- [ ] `packages/core` com `SaveSnapshot`, parser tolerante, diff e testes contra fixture
-- [ ] `packages/content` com schemas Zod e script `validate`
-- [ ] `packages/contracts` com canais IPC e schemas das projeções
-- [ ] CI: typecheck, lint, test, validate content
-- [ ] README de portfólio
+- [x] pnpm workspace + turbo + `packages/config` (tsconfig, eslint, vitest base)
+- [x] `packages/core` com `SaveSnapshot`, parser tolerante, diff e testes contra fixture
+- [x] `packages/content` com schemas Zod e script `validate`
+- [x] `packages/contracts` com canais IPC e schemas das projeções
+- [x] CI: typecheck, lint, test, validate content
+- [x] README de portfólio
 
 ### Fase 1 — MVP publicável ★
 - [ ] `packages/save-io`: locator Steam/Epic + caminho manual, watcher com debounce e hash
@@ -74,7 +74,7 @@ de código escrita ainda**. Próximo passo é a Fase 0.
 
 | Risco | Impacto | Mitigação |
 |---|---|---|
-| Nomes dos campos do save diferentes do assumido | 🔴 Bloqueia a Fase 0 | Abrir save real antes de codar; parser `passthrough` e versão por forma |
+| Nomes dos campos do save diferentes do assumido | 🔴 Bloqueia a Fase 0 | Abrir save real antes de codar; parser tolerante e versão por forma |
 | Conteúdo vazar para o renderer por engano | 🔴 Quebra a promessa do produto | Fronteira de dependência + lint + teste que falha se `content` aparecer no bundle do renderer |
 | `steamworks.js` fazer a Steam achar que o jogo está rodando | 🟡 | Mesmo trade-off do SteamAchievementNotifier; documentar e permitir desligar |
 | Dump comunitário incompleto ou de versão antiga | 🟡 | Versionar conteúdo por versão do jogo; validar contra IDs vistos em saves reais |
