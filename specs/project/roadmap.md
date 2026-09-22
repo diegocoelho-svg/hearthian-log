@@ -4,8 +4,9 @@ tags: [hearthian-log, roadmap]
 
 # Roadmap
 
-**Fase atual:** Fase 0 (Fundação) concluída em 2026-09-22 na branch `feat/foundation`.
-Próximo passo é a Fase 1, começando por uma spec do dashboard (`specs/domain/dashboard.md`).
+**Fase atual:** Fase 1 (MVP). Spec do dashboard aprovada em 2026-09-22. O primeiro passo da
+fase é importar o conteúdo mínimo (`structure` + `names` de locais e curiosidades); `text/`
+fica para a Fase 2.
 
 > Antes de implementar qualquer item, leia [Arquitetura](../domain/arquitetura.md) e a spec do
 > que vai construir. Spec aprovada antes de código — ver [CONTRIBUTING](../../CONTRIBUTING.md).
