@@ -1,0 +1,13 @@
+{
+  "formatVersion": "2.0",
+  "expedition": {
+    "loops": 3,
+    "checkpoints": []
+  },
+  "discoveries": [
+    {
+      "key": "TH_VILLAGE_X1",
+      "state": "revealed"
+    }
+  ]
+}

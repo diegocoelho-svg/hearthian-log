@@ -190,13 +190,19 @@ diffSnapshots(previous: SaveSnapshot | null, next: SaveSnapshot): SaveEvent[]
 
 ## Fixtures
 
-`packages/core/fixtures/*.owsave.json`, anonimizadas: sem nome de perfil, sem caminho real,
-contadores e `revealOrder` embaralhados para não reproduzir um save de verdade. Mínimo para a
-Fase 0:
+`packages/core/fixtures/`, derivadas de um save real da `1.1.16.1372` e anonimizadas: sem nome
+de perfil, sem caminho real, contadores e `revealOrder` gerados do zero para não reproduzir um
+save de verdade. Os 375 `FactId`s e as chaves de `dictConditions` são dados do jogo e ficam
+como estão — o denominador do progresso depende disso.
 
-- `empty.json` — jogo novo: todos os fatos com `revealOrder: -1`, `loopCount` baixo
-- `early.json` — poucos loops, dois ou três locais visitados
-- `partial-write.json` — JSON truncado
-- `unknown-shape.json` — JSON válido sem os campos esperados
+- `empty.owsave.json` — jogo novo sintético: todos os fatos com `revealOrder: -1`, `loopCount: 1`,
+  só a frequência de índice 0 conhecida, `knownSignals` e `dictConditions` vazios. Não veio de
+  um save de jogo novo real; se um aparecer, substitui este
+- `early.owsave.json` — 4 loops, 3 locais visitados (`TH_`, `TM_` e um terço dos `BH_`), 45
+  fatos revelados com `revealOrder` por lote, 2 `newlyRevealed`, 1 fato não revelado com
+  `read: true` para exercitar a normalização, sinais e flags com `true` e `false`
+- `partial-write.owsave.txt` — `early` truncado no meio de um fato; é `.txt` porque não parseia
+- `unknown-shape.owsave.json` — JSON válido sem nenhum dos campos esperados
 
-Saves reais ficam em `fixtures/private/`, ignorado pelo git.
+O script que gera as duas primeiras a partir de `fixtures/private/` não é versionado. Saves
+reais ficam em `fixtures/private/`, ignorado pelo git.

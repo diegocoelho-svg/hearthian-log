@@ -4,8 +4,8 @@ tags: [hearthian-log, roadmap]
 
 # Roadmap
 
-**Fase atual:** arquitetura. Stack e estrutura decididas, modelos especificados, **nenhuma linha
-de código escrita ainda**. Próximo passo é a Fase 0.
+**Fase atual:** Fase 0 (Fundação), branch `feat/foundation`. Checklist aprovado em 2026-09-21;
+workspace, config compartilhada e fixtures prontos.
 
 > Antes de implementar qualquer item, leia [Arquitetura](../domain/arquitetura.md) e a spec do
 > que vai construir. Spec aprovada antes de código — ver [CONTRIBUTING](../../CONTRIBUTING.md).
@@ -22,9 +22,9 @@ de código escrita ainda**. Próximo passo é a Fase 0.
 
 - [x] **Abrir um save real e confirmar os nomes dos campos** — [save-model.md](../domain/save-model.md) atualizado em 2026-09-21
 - [ ] **Confirmar quando o jogo grava o save** (fato revelado? só fim de loop?) — watcher durante uma sessão; ver "O que ainda não foi confirmado" em save-model.md
-- [ ] Criar a primeira fixture anonimizada de save em `packages/core/fixtures/`
+- [x] Criar a primeira fixture anonimizada de save em `packages/core/fixtures/` — 2026-09-21
 - [ ] Localizar dump comunitário do Ship Log e registrar a fonte em [content-model.md](../domain/content-model.md)
-- [ ] Aprovar checklist da Fase 0
+- [x] Aprovar checklist da Fase 0 — 2026-09-21
 
 ## Fases
 

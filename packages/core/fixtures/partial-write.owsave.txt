@@ -1,0 +1,913 @@
+{
+  "loopCount": 4,
+  "knownFrequencies": [true, true, false, false, false, false, false],
+  "knownSignals": {
+    "10": true,
+    "11": true,
+    "12": false,
+    "20": true,
+    "21": true
+  },
+  "dictConditions": {
+    "SayHiToEsker": true,
+    "HAS_USED_JETPACK": true,
+    "HAS_USED_TRANSLATOR": true,
+    "LAUNCH_CODES_GIVEN": true,
+    "HAS_USED_SHIPLOG": true,
+    "HAS_USED_MAP": true,
+    "DEATH_SUPERNOVA": true,
+    "MET_RIEBECK": true,
+    "KNOWS_MEDITATION": false
+  },
+  "shipLogFactSaves": {
+    "S_SUNSTATION_R1": {
+      "id": "S_SUNSTATION_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "S_SUNSTATION_R2": {
+      "id": "S_SUNSTATION_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "S_SUNSTATION_R3": {
+      "id": "S_SUNSTATION_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "S_SUNSTATION_X1": {
+      "id": "S_SUNSTATION_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "S_SUNSTATION_X2": {
+      "id": "S_SUNSTATION_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "S_SUNSTATION_X3": {
+      "id": "S_SUNSTATION_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "S_SUNSTATION_X4": {
+      "id": "S_SUNSTATION_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_CHERT_X1": {
+      "id": "CT_CHERT_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_CHERT_X2": {
+      "id": "CT_CHERT_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_CHERT_X3": {
+      "id": "CT_CHERT_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_CHERT_X4": {
+      "id": "CT_CHERT_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_CHERT_X5": {
+      "id": "CT_CHERT_X5",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_QUANTUM_MOON_LOCATOR_X1": {
+      "id": "CT_QUANTUM_MOON_LOCATOR_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_QUANTUM_MOON_LOCATOR_X2": {
+      "id": "CT_QUANTUM_MOON_LOCATOR_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_QUANTUM_MOON_LOCATOR_X3": {
+      "id": "CT_QUANTUM_MOON_LOCATOR_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_GRAVITY_CANNON_R1": {
+      "id": "CT_GRAVITY_CANNON_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_GRAVITY_CANNON_X1": {
+      "id": "CT_GRAVITY_CANNON_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_GRAVITY_CANNON_X2": {
+      "id": "CT_GRAVITY_CANNON_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ESCAPE_POD_R1": {
+      "id": "CT_ESCAPE_POD_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ESCAPE_POD_R2": {
+      "id": "CT_ESCAPE_POD_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ESCAPE_POD_X1": {
+      "id": "CT_ESCAPE_POD_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ESCAPE_POD_X2": {
+      "id": "CT_ESCAPE_POD_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_HIGH_ENERGY_LAB_R1": {
+      "id": "CT_HIGH_ENERGY_LAB_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_HIGH_ENERGY_LAB_R2": {
+      "id": "CT_HIGH_ENERGY_LAB_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_HIGH_ENERGY_LAB_R3": {
+      "id": "CT_HIGH_ENERGY_LAB_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_HIGH_ENERGY_LAB_X1": {
+      "id": "CT_HIGH_ENERGY_LAB_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_HIGH_ENERGY_LAB_X2": {
+      "id": "CT_HIGH_ENERGY_LAB_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_HIGH_ENERGY_LAB_X3": {
+      "id": "CT_HIGH_ENERGY_LAB_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_WARP_TOWER_MAP_R1": {
+      "id": "CT_WARP_TOWER_MAP_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_WARP_TOWER_MAP_X1": {
+      "id": "CT_WARP_TOWER_MAP_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_WARP_TOWER_MAP_X4": {
+      "id": "CT_WARP_TOWER_MAP_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_WARP_TOWER_MAP_X3": {
+      "id": "CT_WARP_TOWER_MAP_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_WARP_TOWER_MAP_X2": {
+      "id": "CT_WARP_TOWER_MAP_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_R1": {
+      "id": "CT_SUNLESS_CITY_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_R3": {
+      "id": "CT_SUNLESS_CITY_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_R4": {
+      "id": "CT_SUNLESS_CITY_R4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_R5": {
+      "id": "CT_SUNLESS_CITY_R5",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_R2": {
+      "id": "CT_SUNLESS_CITY_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_X1": {
+      "id": "CT_SUNLESS_CITY_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_X2": {
+      "id": "CT_SUNLESS_CITY_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_SUNLESS_CITY_X3": {
+      "id": "CT_SUNLESS_CITY_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_R1": {
+      "id": "CT_ANGLERFISH_FOSSIL_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_R2": {
+      "id": "CT_ANGLERFISH_FOSSIL_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_R3": {
+      "id": "CT_ANGLERFISH_FOSSIL_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_R4": {
+      "id": "CT_ANGLERFISH_FOSSIL_R4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_X1": {
+      "id": "CT_ANGLERFISH_FOSSIL_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_X2": {
+      "id": "CT_ANGLERFISH_FOSSIL_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_ANGLERFISH_FOSSIL_X3": {
+      "id": "CT_ANGLERFISH_FOSSIL_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_QUANTUM_CAVES_R1": {
+      "id": "CT_QUANTUM_CAVES_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_QUANTUM_CAVES_X1": {
+      "id": "CT_QUANTUM_CAVES_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_QUANTUM_CAVES_X2": {
+      "id": "CT_QUANTUM_CAVES_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_LAKEBED_CAVERN_R1": {
+      "id": "CT_LAKEBED_CAVERN_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_LAKEBED_CAVERN_R2": {
+      "id": "CT_LAKEBED_CAVERN_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_LAKEBED_CAVERN_X1": {
+      "id": "CT_LAKEBED_CAVERN_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_LAKEBED_CAVERN_X2": {
+      "id": "CT_LAKEBED_CAVERN_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "CT_LAKEBED_CAVERN_X3": {
+      "id": "CT_LAKEBED_CAVERN_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_WARP_TOWERS_X1": {
+      "id": "TT_WARP_TOWERS_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_WARP_TOWERS_X2": {
+      "id": "TT_WARP_TOWERS_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_R1": {
+      "id": "TT_TIME_LOOP_DEVICE_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_R2": {
+      "id": "TT_TIME_LOOP_DEVICE_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_R3": {
+      "id": "TT_TIME_LOOP_DEVICE_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_R4": {
+      "id": "TT_TIME_LOOP_DEVICE_R4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_X1": {
+      "id": "TT_TIME_LOOP_DEVICE_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_X2": {
+      "id": "TT_TIME_LOOP_DEVICE_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_X3": {
+      "id": "TT_TIME_LOOP_DEVICE_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_X4": {
+      "id": "TT_TIME_LOOP_DEVICE_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TT_TIME_LOOP_DEVICE_X5": {
+      "id": "TT_TIME_LOOP_DEVICE_X5",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TH_VILLAGE_X1": {
+      "id": "TH_VILLAGE_X1",
+      "revealOrder": 30,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_VILLAGE_X2": {
+      "id": "TH_VILLAGE_X2",
+      "revealOrder": 6,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_VILLAGE_X3": {
+      "id": "TH_VILLAGE_X3",
+      "revealOrder": 8,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TH_ZERO_G_CAVE_R1": {
+      "id": "TH_ZERO_G_CAVE_R1",
+      "revealOrder": 3,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_ZERO_G_CAVE_X1": {
+      "id": "TH_ZERO_G_CAVE_X1",
+      "revealOrder": 15,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_ZERO_G_CAVE_X2": {
+      "id": "TH_ZERO_G_CAVE_X2",
+      "revealOrder": 4,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_IMPACT_CRATER_R1": {
+      "id": "TH_IMPACT_CRATER_R1",
+      "revealOrder": 11,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_IMPACT_CRATER_X1": {
+      "id": "TH_IMPACT_CRATER_X1",
+      "revealOrder": 22,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_IMPACT_CRATER_X2": {
+      "id": "TH_IMPACT_CRATER_X2",
+      "revealOrder": 34,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TH_IMPACT_CRATER_X3": {
+      "id": "TH_IMPACT_CRATER_X3",
+      "revealOrder": 26,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_NOMAI_MINE_R1": {
+      "id": "TH_NOMAI_MINE_R1",
+      "revealOrder": 9,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_NOMAI_MINE_X1": {
+      "id": "TH_NOMAI_MINE_X1",
+      "revealOrder": 36,
+      "read": false,
+      "newlyRevealed": true
+    },
+    "TH_NOMAI_MINE_X2": {
+      "id": "TH_NOMAI_MINE_X2",
+      "revealOrder": 19,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_NOMAI_MINE_X3": {
+      "id": "TH_NOMAI_MINE_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TH_QUANTUM_SHARD_R1": {
+      "id": "TH_QUANTUM_SHARD_R1",
+      "revealOrder": 10,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_QUANTUM_SHARD_R2": {
+      "id": "TH_QUANTUM_SHARD_R2",
+      "revealOrder": 27,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_QUANTUM_SHARD_X1": {
+      "id": "TH_QUANTUM_SHARD_X1",
+      "revealOrder": 20,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TH_QUANTUM_SHARD_X2": {
+      "id": "TH_QUANTUM_SHARD_X2",
+      "revealOrder": 35,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TM_ESKER_R1": {
+      "id": "TM_ESKER_R1",
+      "revealOrder": 5,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TM_ESKER_X1": {
+      "id": "TM_ESKER_X1",
+      "revealOrder": 15,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TM_NORTH_POLE_R1": {
+      "id": "TM_NORTH_POLE_R1",
+      "revealOrder": 20,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TM_NORTH_POLE_X1": {
+      "id": "TM_NORTH_POLE_X1",
+      "revealOrder": 35,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TM_EYE_LOCATOR_R1": {
+      "id": "TM_EYE_LOCATOR_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "TM_EYE_LOCATOR_R2": {
+      "id": "TM_EYE_LOCATOR_R2",
+      "revealOrder": 23,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TM_EYE_LOCATOR_X1": {
+      "id": "TM_EYE_LOCATOR_X1",
+      "revealOrder": 14,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "TM_EYE_LOCATOR_X2": {
+      "id": "TM_EYE_LOCATOR_X2",
+      "revealOrder": 32,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_RIEBECK_R1": {
+      "id": "BH_RIEBECK_R1",
+      "revealOrder": -1,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_RIEBECK_R2": {
+      "id": "BH_RIEBECK_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_RIEBECK_R3": {
+      "id": "BH_RIEBECK_R3",
+      "revealOrder": 2,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_RIEBECK_R4": {
+      "id": "BH_RIEBECK_R4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_RIEBECK_X1": {
+      "id": "BH_RIEBECK_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_RIEBECK_X2": {
+      "id": "BH_RIEBECK_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_GRAVITY_CANNON_X1": {
+      "id": "BH_GRAVITY_CANNON_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_GRAVITY_CANNON_X2": {
+      "id": "BH_GRAVITY_CANNON_X2",
+      "revealOrder": 13,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_RESEARCH_TOWER_R1": {
+      "id": "BH_QUANTUM_RESEARCH_TOWER_R1",
+      "revealOrder": 28,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_RESEARCH_TOWER_R2": {
+      "id": "BH_QUANTUM_RESEARCH_TOWER_R2",
+      "revealOrder": 24,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_RESEARCH_TOWER_X1": {
+      "id": "BH_QUANTUM_RESEARCH_TOWER_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_RESEARCH_TOWER_X2": {
+      "id": "BH_QUANTUM_RESEARCH_TOWER_X2",
+      "revealOrder": 10,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_RESEARCH_TOWER_X3": {
+      "id": "BH_QUANTUM_RESEARCH_TOWER_X3",
+      "revealOrder": 31,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_SHARD_R1": {
+      "id": "BH_QUANTUM_SHARD_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_SHARD_X1": {
+      "id": "BH_QUANTUM_SHARD_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_SHARD_X2": {
+      "id": "BH_QUANTUM_SHARD_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_QUANTUM_SHARD_X3": {
+      "id": "BH_QUANTUM_SHARD_X3",
+      "revealOrder": 25,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_WARP_RECEIVER_X1": {
+      "id": "BH_WARP_RECEIVER_X1",
+      "revealOrder": 17,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_WARP_RECEIVER_X2": {
+      "id": "BH_WARP_RECEIVER_X2",
+      "revealOrder": 21,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_ESCAPE_POD_R1": {
+      "id": "BH_ESCAPE_POD_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_ESCAPE_POD_X1": {
+      "id": "BH_ESCAPE_POD_X1",
+      "revealOrder": 33,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_ESCAPE_POD_X2": {
+      "id": "BH_ESCAPE_POD_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OLD_SETTLEMENT_R1": {
+      "id": "BH_OLD_SETTLEMENT_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OLD_SETTLEMENT_X1": {
+      "id": "BH_OLD_SETTLEMENT_X1",
+      "revealOrder": 37,
+      "read": false,
+      "newlyRevealed": true
+    },
+    "BH_OLD_SETTLEMENT_X2": {
+      "id": "BH_OLD_SETTLEMENT_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OLD_SETTLEMENT_X3": {
+      "id": "BH_OLD_SETTLEMENT_X3",
+      "revealOrder": 25,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OLD_SETTLEMENT_X4": {
+      "id": "BH_OLD_SETTLEMENT_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_MURAL_1_X1": {
+      "id": "BH_MURAL_1_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_MURAL_2_X1": {
+      "id": "BH_MURAL_2_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_MURAL_3_X1": {
+      "id": "BH_MURAL_3_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_HANGING_CITY_R1": {
+      "id": "BH_HANGING_CITY_R1",
+      "revealOrder": 1,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_HANGING_CITY_R2": {
+      "id": "BH_HANGING_CITY_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_HANGING_CITY_X1": {
+      "id": "BH_HANGING_CITY_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_HANGING_CITY_X2": {
+      "id": "BH_HANGING_CITY_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_HANGING_CITY_X3": {
+      "id": "BH_HANGING_CITY_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_HANGING_CITY_X4": {
+      "id": "BH_HANGING_CITY_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_R1": {
+      "id": "BH_BLACK_HOLE_FORGE_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_R2": {
+      "id": "BH_BLACK_HOLE_FORGE_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_R3": {
+      "id": "BH_BLACK_HOLE_FORGE_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_R4": {
+      "id": "BH_BLACK_HOLE_FORGE_R4",
+      "revealOrder": 30,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_X1": {
+      "id": "BH_BLACK_HOLE_FORGE_X1",
+      "revealOrder": 29,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_X2": {
+      "id": "BH_BLACK_HOLE_FORGE_X2",
+      "revealOrder": 16,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_BLACK_HOLE_FORGE_X3": {
+      "id": "BH_BLACK_HOLE_FORGE_X3",
+      "revealOrder": 18,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_WARP_ALIGNMENT_MAP_X1": {
+      "id": "BH_WARP_ALIGNMENT_MAP_X1",
+      "revealOrder": 0,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_WARP_ALIGNMENT_MAP_X2": {
+      "id": "BH_WARP_ALIGNMENT_MAP_X2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_WARP_ALIGNMENT_MAP_X3": {
+      "id": "BH_WARP_ALIGNMENT_MAP_X3",
+      "revealOrder": 12,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_R1": {
+      "id": "BH_OBSERVATORY_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_R2": {
+      "id": "BH_OBSERVATORY_R2",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_R3": {
+      "id": "BH_OBSERVATORY_R3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_R4": {
+      "id": "BH_OBSERVATORY_R4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_X1": {
+      "id": "BH_OBSERVATORY_X1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_X2": {
+      "id": "BH_OBSERVATORY_X2",
+      "revealOrder": 5,
+      "read": true,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_X3": {
+      "id": "BH_OBSERVATORY_X3",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_OBSERVATORY_X4": {
+      "id": "BH_OBSERVATORY_X4",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_TORNADO_SIMULATION_R1": {
+      "id": "BH_TORNADO_SIMULATION_R1",
+      "revealOrder": -1,
+      "read": false,
+      "newlyRevealed": false
+    },
+    "BH_TORNADO_SIMULATION_X1": {
+      "id": "BH_TORNADO_SIMULATION_X1",
+      "revealOrder": -
