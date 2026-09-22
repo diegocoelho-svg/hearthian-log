@@ -5,3 +5,6 @@ export type { SaveEvent } from "./save/SaveEvent.ts";
 export { parseSave } from "./save/parseSave.ts";
 export type { ParseSaveOptions, ParseSaveResult } from "./save/parseSave.ts";
 export { diffSnapshots } from "./save/diffSnapshots.ts";
+export * from "./idSchemas.ts";
+export { spoilerLevels } from "./spoiler/SpoilerLevel.ts";
+export type { SpoilerLevel } from "./spoiler/SpoilerLevel.ts";

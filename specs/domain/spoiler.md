@@ -50,9 +50,16 @@ projectView(progress: Progress, content: LoadedContent, level: SpoilerLevel): Da
 ```
 
 Função pura em `core`. A `View` é um tipo do `contracts` e **não tem campos opcionais que
-carregam conteúdo**: `LocationView` no nível `none` é `{ id, revealed, total }` e no nível
-`locations` é `{ id, name, revealed, total }`. São tipos diferentes, unidos por discriminante
-de nível. Não existe `name?: string` que alguém esquece de apagar.
+carregam conteúdo**: no nível `none` a lista de locais é de `VisitedLocationView`
+`{ id, name, facts }` e só contém visitados; a partir de `locations` é de `LocationView`
+`{ id, name, visited, facts }` e contém todos. Fatos só existem na `View` a partir de `titles`
+(`{ id, title, revealed, read }`) e só ganham `text` em `full`. São tipos diferentes, unidos
+pelo discriminante `level`. Não existe `name?: string` que alguém esquece de apagar.
+
+Os schemas Zod das `View`s em `packages/contracts` são estritos (`strictObject`): um campo a
+mais é erro de validação nos dois lados do IPC. Um teste de tipo em `contracts` percorre as
+chaves da `View` de cada nível e falha se `title`, `text`, `description` ou `hints` aparecer
+onde o nível não permite.
 
 ## Subir de nível
 

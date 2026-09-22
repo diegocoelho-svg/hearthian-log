@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { achievementIdSchema, factIdSchema } from "./ids.ts";
+import { achievementIdSchema, factIdSchema } from "@hearthian/core";
 
 const prose = z.string().min(1);
 

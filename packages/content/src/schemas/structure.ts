@@ -7,7 +7,7 @@ import {
   frequencyIndexSchema,
   locationIdSchema,
   signalIdSchema,
-} from "./ids.ts";
+} from "@hearthian/core";
 
 const hexColor = z.string().regex(/^#[0-9a-f]{6}$/i);
 

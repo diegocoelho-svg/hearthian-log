@@ -1,3 +1,4 @@
+import { z } from "zod";
 import {
   achievementId,
   curiosityId,
@@ -6,8 +7,7 @@ import {
   frequencyIndex,
   locationId,
   signalId,
-} from "@hearthian/core";
-import { z } from "zod";
+} from "./ids.ts";
 
 const id = z.string().min(1);
 

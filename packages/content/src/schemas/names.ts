@@ -1,5 +1,10 @@
 import { z } from "zod";
-import { achievementIdSchema, curiosityIdSchema, factIdSchema, locationIdSchema } from "./ids.ts";
+import {
+  achievementIdSchema,
+  curiosityIdSchema,
+  factIdSchema,
+  locationIdSchema,
+} from "@hearthian/core";
 
 const name = z.string().min(1);
 
