@@ -31,6 +31,9 @@ A fonte de cada arquivo fica em `packages/content/SOURCES.md` com URL, data e ve
 Arquivos correspondentes: `data/structure/*.json`, `data/names/*.json`, `data/text/*.json`.
 O que decide o que cada nível carrega está em [spoiler.md](./spoiler.md).
 
+As três entradas exportam a mesma constante `contentBundleSentinel`. O teste de build da
+Fase 1 procura essa string no bundle do renderer e falha se encontrar.
+
 ## Entidades
 
 ```ts
@@ -38,7 +41,7 @@ type Location = { id: LocationId; kind: 'planet' | 'moon' | 'station' | 'other';
 type Curiosity = { id: CuriosityId; color: string }
 type Entry = { id: EntryId; locationId: LocationId; curiosityId: CuriosityId | null; parentEntryId: EntryId | null }
 type Fact = { id: FactId; entryId: EntryId; kind: 'explore' | 'rumor'; targets: EntryId[] }
-type Signal = { id: SignalId; frequencyId: FrequencyId; locationId: LocationId | null }
+type Signal = { id: SignalId; frequencyIndex: FrequencyIndex; locationId: LocationId | null }
 type Achievement = {
   id: AchievementId
   hidden: boolean
@@ -47,6 +50,10 @@ type Achievement = {
   order: number
 }
 ```
+
+`frequencyIndex` é o índice em `knownFrequencies` do save — a frequência não tem id próprio no
+jogo. Os schemas são estritos: chave desconhecida é erro, para nome nenhum entrar em
+`structure` por acidente.
 
 `names`:
 

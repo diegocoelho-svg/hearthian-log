@@ -31,7 +31,7 @@ workspace, config compartilhada e fixtures prontos.
 ### Fase 0 — Fundação
 - [x] pnpm workspace + turbo + `packages/config` (tsconfig, eslint, vitest base)
 - [x] `packages/core` com `SaveSnapshot`, parser tolerante, diff e testes contra fixture
-- [ ] `packages/content` com schemas Zod e script `validate`
+- [x] `packages/content` com schemas Zod e script `validate`
 - [ ] `packages/contracts` com canais IPC e schemas das projeções
 - [ ] CI: typecheck, lint, test, validate content
 - [ ] README de portfólio
