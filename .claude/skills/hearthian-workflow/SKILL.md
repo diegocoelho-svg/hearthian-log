@@ -43,7 +43,8 @@ não a permite · módulo nativo novo · escopo que cresceu · dúvida entre dua
 
 ## Fluxo de git
 
-1. Trabalho em worktree do Orca: `orca worktree create --repo name:hearthian-log --name <slug>`.
+1. Trabalho em worktree do Orca:
+   `orca worktree create --repo name:hearthian-log --name feat/<slug> --no-parent`.
    Branch `feat/<slug>`, `fix/<slug>` ou `chore/<slug>` em inglês. Nunca direto na `main`.
 2. Commit: **só quando o Diego autorizar**. Conventional Commits, curto, em inglês, sem `Co-Authored-By`.
    Commit no fim de trabalho coeso.
