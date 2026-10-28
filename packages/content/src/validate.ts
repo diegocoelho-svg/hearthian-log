@@ -154,60 +154,75 @@ const checkReferences = (structure: Parsed["structure"], errors: string[]): void
   }
 };
 
+type Coverage = "required" | "partial";
+
 const checkParity = (
   structureFile: string,
   structureItems: readonly Identified[],
   otherFile: string,
   otherItems: readonly Identified[],
-  errors: string[],
+  coverage: Coverage,
+  report: { errors: string[]; warnings: string[] },
 ): void => {
   const structureIds = idSet(structureItems);
   const otherIds = idSet(otherItems);
-  for (const id of structureIds) {
-    if (!otherIds.has(id)) errors.push(`${otherFile}: missing ${id} from ${structureFile}`);
+  const missing = [...structureIds].filter((id) => !otherIds.has(id));
+  if (coverage === "required") {
+    for (const id of missing)
+      report.errors.push(`${otherFile}: missing ${id} from ${structureFile}`);
+  } else if (missing.length > 0) {
+    report.warnings.push(`${otherFile}: ${missing.length} ids from ${structureFile} not covered`);
   }
   for (const id of otherIds) {
     if (!structureIds.has(id))
-      errors.push(`${otherFile}: ${id} does not exist in ${structureFile}`);
+      report.errors.push(`${otherFile}: ${id} does not exist in ${structureFile}`);
   }
 };
 
-const checkAllParity = ({ structure, names, text }: Parsed, errors: string[]): void => {
+const checkAllParity = (
+  { structure, names, text }: Parsed,
+  report: { errors: string[]; warnings: string[] },
+): void => {
   checkParity(
     "structure/locations",
     structure.locations,
     "names/locations",
     names.locations,
-    errors,
+    "required",
+    report,
   );
   checkParity(
     "structure/curiosities",
     structure.curiosities,
     "names/curiosities",
     names.curiosities,
-    errors,
+    "required",
+    report,
   );
   checkParity(
     "structure/facts",
     structure.facts,
     "names/fact-titles",
     names["fact-titles"],
-    errors,
+    "partial",
+    report,
   );
   checkParity(
     "structure/achievements",
     structure.achievements,
     "names/achievements",
     names.achievements,
-    errors,
+    "required",
+    report,
   );
-  checkParity("structure/facts", structure.facts, "text/facts", text.facts, errors);
+  checkParity("structure/facts", structure.facts, "text/facts", text.facts, "partial", report);
   checkParity(
     "structure/achievements",
     structure.achievements,
     "text/achievements",
     text.achievements,
-    errors,
+    "required",
+    report,
   );
 };
 
@@ -271,7 +286,7 @@ export const validateContent = (raw: RawContent): ValidationReport => {
     checkDuplicates(`names/${file}`, items, errors);
   for (const [file, items] of Object.entries(text)) checkDuplicates(`text/${file}`, items, errors);
   checkReferences(structure, errors);
-  checkAllParity(parsed, errors);
+  checkAllParity(parsed, { errors, warnings });
   checkStructureIsOpaque(raw, parsed, errors);
   checkFixtureCoverage(raw.fixtureFactIds, structure.facts, warnings);
 

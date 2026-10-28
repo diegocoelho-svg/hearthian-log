@@ -1,1 +1,536 @@
-[]
+[
+  {
+    "id": "S_SUNSTATION",
+    "locationId": "SUN_STATION",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_CHERT",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_QUANTUM_MOON_LOCATOR",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_GRAVITY_CANNON",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "COMET_CORE",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_ESCAPE_POD",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_WARP_TOWER_MAP",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": "CT_HIGH_ENERGY_LAB"
+  },
+  {
+    "id": "CT_SUNLESS_CITY",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_QUANTUM_CAVES",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "CT_LAKEBED_CAVERN",
+    "locationId": "CAVE_TWIN",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "TT_WARP_TOWERS",
+    "locationId": "TOWER_TWIN",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE",
+    "locationId": "TOWER_TWIN",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "TH_VILLAGE",
+    "locationId": "TIMBER_HEARTH",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "TH_ZERO_G_CAVE",
+    "locationId": "TIMBER_HEARTH",
+    "curiosityId": null,
+    "parentEntryId": "TH_VILLAGE"
+  },
+  {
+    "id": "TH_IMPACT_CRATER",
+    "locationId": "TIMBER_HEARTH",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "TH_NOMAI_MINE",
+    "locationId": "TIMBER_HEARTH",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "TH_QUANTUM_SHARD",
+    "locationId": "TIMBER_HEARTH",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "TH_RADIO_TOWER",
+    "locationId": "TIMBER_HEARTH",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "TM_ESKER",
+    "locationId": "TIMBER_MOON",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "TM_NORTH_POLE",
+    "locationId": "TIMBER_MOON",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "TM_EYE_LOCATOR",
+    "locationId": "TIMBER_MOON",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_RIEBECK",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_GRAVITY_CANNON",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_QUANTUM_RESEARCH_TOWER",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_QUANTUM_SHARD",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": "BH_QUANTUM_RESEARCH_TOWER"
+  },
+  {
+    "id": "BH_WARP_RECEIVER",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_ESCAPE_POD",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_OLD_SETTLEMENT",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_MURAL_3",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "VESSEL",
+    "parentEntryId": "BH_OLD_SETTLEMENT"
+  },
+  {
+    "id": "BH_MURAL_2",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "VESSEL",
+    "parentEntryId": "BH_OLD_SETTLEMENT"
+  },
+  {
+    "id": "BH_MURAL_1",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "VESSEL",
+    "parentEntryId": "BH_OLD_SETTLEMENT"
+  },
+  {
+    "id": "BH_HANGING_CITY",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_WARP_ALIGNMENT_MAP",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": "BH_BLACK_HOLE_FORGE"
+  },
+  {
+    "id": "BH_OBSERVATORY",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "BH_TORNADO_SIMULATION",
+    "locationId": "BRITTLE_HOLLOW",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": "BH_OBSERVATORY"
+  },
+  {
+    "id": "VM_VOLCANO",
+    "locationId": "VOLCANIC_MOON",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "GD_OCEAN",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "GD_GABBRO_ISLAND",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": null,
+    "parentEntryId": null
+  },
+  {
+    "id": "GD_CONSTRUCTION_YARD",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "GD_BRAMBLE_ISLAND",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "GD_STATUE_ISLAND",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": "GD_STATUE_ISLAND"
+  },
+  {
+    "id": "GD_QUANTUM_TOWER",
+    "locationId": "GIANTS_DEEP",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON",
+    "locationId": "ORBITAL_PROBE_CANNON",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE",
+    "locationId": "ORBITAL_PROBE_CANNON",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": "ORBITAL_PROBE_CANNON"
+  },
+  {
+    "id": "OPC_BROKEN_MODULE",
+    "locationId": "ORBITAL_PROBE_CANNON",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": "ORBITAL_PROBE_CANNON"
+  },
+  {
+    "id": "OPC_INTACT_MODULE",
+    "locationId": "ORBITAL_PROBE_CANNON",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": "ORBITAL_PROBE_CANNON"
+  },
+  {
+    "id": "DB_FELDSPAR",
+    "locationId": "DARK_BRAMBLE",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "DB_FROZEN_JELLYFISH",
+    "locationId": "DARK_BRAMBLE",
+    "curiosityId": "SUNKEN_MODULE",
+    "parentEntryId": null
+  },
+  {
+    "id": "DB_ESCAPE_POD",
+    "locationId": "DARK_BRAMBLE",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "DB_NOMAI_GRAVE",
+    "locationId": "DARK_BRAMBLE",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "DB_VESSEL",
+    "locationId": "DARK_BRAMBLE",
+    "curiosityId": "VESSEL",
+    "parentEntryId": null
+  },
+  {
+    "id": "COMET_SHUTTLE",
+    "locationId": "COMET",
+    "curiosityId": "COMET_CORE",
+    "parentEntryId": null
+  },
+  {
+    "id": "COMET_INTERIOR",
+    "locationId": "COMET",
+    "curiosityId": "COMET_CORE",
+    "parentEntryId": null
+  },
+  {
+    "id": "QUANTUM_MOON",
+    "locationId": "QUANTUM_MOON",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": null
+  },
+  {
+    "id": "QM_SHUTTLE",
+    "locationId": "QUANTUM_MOON",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": "QUANTUM_MOON"
+  },
+  {
+    "id": "QM_SHRINE",
+    "locationId": "QUANTUM_MOON",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": "QUANTUM_MOON"
+  },
+  {
+    "id": "QM_SIXTH_LOCATION",
+    "locationId": "QUANTUM_MOON",
+    "curiosityId": "QUANTUM_MOON",
+    "parentEntryId": "QUANTUM_MOON"
+  },
+  {
+    "id": "WHITE_HOLE_STATION",
+    "locationId": "WHITE_HOLE",
+    "curiosityId": "TIME_LOOP",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_RING_WORLD",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_ZONE_1",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_ZONE_1_STORY",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_1"
+  },
+  {
+    "id": "IP_ZONE_1_SECRET",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_1"
+  },
+  {
+    "id": "IP_ZONE_2",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_ZONE_2_STORY",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_2"
+  },
+  {
+    "id": "IP_ZONE_2_SECRET",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_2"
+  },
+  {
+    "id": "IP_ZONE_2_LIGHTHOUSE",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_ZONE_2_CODE",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_2_LIGHTHOUSE"
+  },
+  {
+    "id": "IP_ZONE_3",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_ZONE_3_SECRET",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_3"
+  },
+  {
+    "id": "IP_ZONE_3_STORY",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_3"
+  },
+  {
+    "id": "IP_ZONE_3_ENTRANCE",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_3"
+  },
+  {
+    "id": "IP_ZONE_3_LAB",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_MAP_PROJECTION_1",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_3_LAB"
+  },
+  {
+    "id": "IP_MAP_PROJECTION_2",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_3_LAB"
+  },
+  {
+    "id": "IP_MAP_PROJECTION_3",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_3_LAB"
+  },
+  {
+    "id": "IP_ZONE_4",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_ZONE_4_STORY",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_ZONE_4"
+  },
+  {
+    "id": "IP_PRISON",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_DREAM_LAKE",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_PRISON"
+  },
+  {
+    "id": "IP_SARCOPHAGUS",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_PRISON"
+  },
+  {
+    "id": "IP_DREAM_ZONE_1",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_1",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_DREAM_ZONE_1"
+  },
+  {
+    "id": "IP_DREAM_ZONE_2",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_2",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_DREAM_ZONE_2"
+  },
+  {
+    "id": "IP_DREAM_ZONE_3",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": null
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_3",
+    "locationId": "INVISIBLE_PLANET",
+    "curiosityId": "INVISIBLE_PLANET",
+    "parentEntryId": "IP_DREAM_ZONE_3"
+  }
+]

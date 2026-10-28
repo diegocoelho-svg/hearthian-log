@@ -11,7 +11,8 @@
   "scripts": {
     "typecheck": "tsc -p tsconfig.json",
     "test": "vitest run",
-    "validate": "tsx scripts/validate.ts"
+    "validate": "tsx scripts/validate.ts",
+    "import:ship-log": "tsx scripts/import-ship-log.ts"
   },
   "dependencies": {
     "@hearthian/core": "workspace:*",

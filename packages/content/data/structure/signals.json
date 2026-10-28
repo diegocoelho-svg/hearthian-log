@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "10",
+    "frequencyIndex": 1,
+    "locationId": "TIMBER_MOON"
+  },
+  {
+    "id": "11",
+    "frequencyIndex": 1,
+    "locationId": "CAVE_TWIN"
+  },
+  {
+    "id": "12",
+    "frequencyIndex": 1,
+    "locationId": "BRITTLE_HOLLOW"
+  },
+  {
+    "id": "13",
+    "frequencyIndex": 1,
+    "locationId": "GIANTS_DEEP"
+  },
+  {
+    "id": "14",
+    "frequencyIndex": 1,
+    "locationId": "DARK_BRAMBLE"
+  },
+  {
+    "id": "15",
+    "frequencyIndex": 1,
+    "locationId": "QUANTUM_MOON"
+  },
+  {
+    "id": "16",
+    "frequencyIndex": 1,
+    "locationId": "INVISIBLE_PLANET"
+  },
+  {
+    "id": "20",
+    "frequencyIndex": 2,
+    "locationId": "CAVE_TWIN"
+  },
+  {
+    "id": "21",
+    "frequencyIndex": 2,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "22",
+    "frequencyIndex": 2,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "23",
+    "frequencyIndex": 2,
+    "locationId": "BRITTLE_HOLLOW"
+  },
+  {
+    "id": "24",
+    "frequencyIndex": 2,
+    "locationId": "GIANTS_DEEP"
+  },
+  {
+    "id": "25",
+    "frequencyIndex": 2,
+    "locationId": "QUANTUM_MOON"
+  },
+  {
+    "id": "30",
+    "frequencyIndex": 3,
+    "locationId": "CAVE_TWIN"
+  },
+  {
+    "id": "31",
+    "frequencyIndex": 3,
+    "locationId": "BRITTLE_HOLLOW"
+  },
+  {
+    "id": "32",
+    "frequencyIndex": 3,
+    "locationId": "DARK_BRAMBLE"
+  },
+  {
+    "id": "40",
+    "frequencyIndex": 4,
+    "locationId": "WHITE_HOLE"
+  },
+  {
+    "id": "41",
+    "frequencyIndex": 4,
+    "locationId": "SUN_STATION"
+  },
+  {
+    "id": "42",
+    "frequencyIndex": 4,
+    "locationId": "CAVE_TWIN"
+  },
+  {
+    "id": "43",
+    "frequencyIndex": 4,
+    "locationId": "CAVE_TWIN"
+  },
+  {
+    "id": "44",
+    "frequencyIndex": 4,
+    "locationId": "TOWER_TWIN"
+  },
+  {
+    "id": "45",
+    "frequencyIndex": 4,
+    "locationId": "TOWER_TWIN"
+  },
+  {
+    "id": "46",
+    "frequencyIndex": 4,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "47",
+    "frequencyIndex": 4,
+    "locationId": "BRITTLE_HOLLOW"
+  },
+  {
+    "id": "48",
+    "frequencyIndex": 4,
+    "locationId": "BRITTLE_HOLLOW"
+  },
+  {
+    "id": "49",
+    "frequencyIndex": 4,
+    "locationId": "GIANTS_DEEP"
+  },
+  {
+    "id": "60",
+    "frequencyIndex": 5,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "61",
+    "frequencyIndex": 5,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "62",
+    "frequencyIndex": 5,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "100",
+    "frequencyIndex": 6,
+    "locationId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "101",
+    "frequencyIndex": 6,
+    "locationId": null
+  }
+]

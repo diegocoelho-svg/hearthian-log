@@ -19,6 +19,7 @@ spoiler → modelo do save → modelo de conteúdo.
 | [Spoiler](domain/spoiler.md) | ★ Níveis, projeções, o que cada nível carrega e como isso é garantido |
 | [Modelo do Save](domain/save-model.md) | Onde fica, formato, `SaveSnapshot`, parser, diff, fixtures |
 | [Modelo de Conteúdo](domain/content-model.md) | Tabelas estáticas, conteúdo autoral, versionamento, validação |
+| [Dashboard](domain/dashboard.md) | Tela principal por nível de spoiler, estados e o que chega na `View` |
 
 ## `decisions/` — ADRs
 

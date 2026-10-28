@@ -4,8 +4,9 @@ tags: [hearthian-log, roadmap]
 
 # Roadmap
 
-**Fase atual:** Fase 0 (Fundação) concluída em 2026-09-22 na branch `feat/foundation`.
-Próximo passo é a Fase 1, começando por uma spec do dashboard (`specs/domain/dashboard.md`).
+**Fase atual:** Fase 1 (MVP). Spec do dashboard aprovada em 2026-09-22. Conteúdo mínimo
+(`structure` + `names` de locais e curiosidades) importado em 2026-10-27; `text/` fica para a
+Fase 2. Próximo: `computeProgress` e `projectView` em `core`.
 
 > Antes de implementar qualquer item, leia [Arquitetura](../domain/arquitetura.md) e a spec do
 > que vai construir. Spec aprovada antes de código — ver [CONTRIBUTING](../../CONTRIBUTING.md).
@@ -23,7 +24,7 @@ Próximo passo é a Fase 1, começando por uma spec do dashboard (`specs/domain/
 - [x] **Abrir um save real e confirmar os nomes dos campos** — [save-model.md](../domain/save-model.md) atualizado em 2026-09-21
 - [ ] **Confirmar quando o jogo grava o save** (fato revelado? só fim de loop?) — watcher durante uma sessão; ver "O que ainda não foi confirmado" em save-model.md
 - [x] Criar a primeira fixture anonimizada de save em `packages/core/fixtures/` — 2026-09-21
-- [ ] Localizar dump comunitário do Ship Log e registrar a fonte em [content-model.md](../domain/content-model.md)
+- [x] Localizar a fonte do Ship Log e registrar em [content-model.md](../domain/content-model.md) — extraído da instalação local, 2026-10-27
 - [x] Aprovar checklist da Fase 0 — 2026-09-21
 
 ## Fases

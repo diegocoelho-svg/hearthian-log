@@ -127,6 +127,31 @@ describe("validateContent", () => {
     expect(report.errors).toContain("text/facts: GHOST does not exist in structure/facts");
   });
 
+  it("warns, without failing, when fact titles and fact texts do not cover every fact", () => {
+    const report = validateContent({
+      ...valid,
+      names: { ...valid.names, "fact-titles": [] },
+      text: { ...valid.text, facts: [{ id: "TH_VILLAGE_X1", text: "Home." }] },
+    });
+    expect(report.errors).toEqual([]);
+    expect(report.warnings).toEqual([
+      "names/fact-titles: 2 ids from structure/facts not covered",
+      "text/facts: 1 ids from structure/facts not covered",
+    ]);
+  });
+
+  it("still requires names and texts for every achievement", () => {
+    const report = validateContent({
+      ...valid,
+      names: { ...valid.names, achievements: [] },
+      text: { ...valid.text, achievements: [] },
+    });
+    expect(report.errors).toEqual([
+      "names/achievements: missing ACH_VISIT_MOON from structure/achievements",
+      "text/achievements: missing ACH_VISIT_MOON from structure/achievements",
+    ]);
+  });
+
   it("rejects a readable string hidden inside structure", () => {
     const report = validateContent(
       withStructure({

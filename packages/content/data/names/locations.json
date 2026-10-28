@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "id": "SUN_STATION",
+    "name": "Sun Station"
+  },
+  {
+    "id": "CAVE_TWIN",
+    "name": "Ember Twin"
+  },
+  {
+    "id": "TOWER_TWIN",
+    "name": "Ash Twin"
+  },
+  {
+    "id": "TIMBER_HEARTH",
+    "name": "Timber Hearth"
+  },
+  {
+    "id": "TIMBER_MOON",
+    "name": "The Attlerock"
+  },
+  {
+    "id": "BRITTLE_HOLLOW",
+    "name": "Brittle Hollow"
+  },
+  {
+    "id": "VOLCANIC_MOON",
+    "name": "Hollow's Lantern"
+  },
+  {
+    "id": "GIANTS_DEEP",
+    "name": "Giant's Deep"
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON",
+    "name": "Orbital Probe Cannon"
+  },
+  {
+    "id": "DARK_BRAMBLE",
+    "name": "Dark Bramble"
+  },
+  {
+    "id": "COMET",
+    "name": "The Interloper"
+  },
+  {
+    "id": "QUANTUM_MOON",
+    "name": "Quantum Moon"
+  },
+  {
+    "id": "WHITE_HOLE",
+    "name": "White Hole"
+  },
+  {
+    "id": "INVISIBLE_PLANET",
+    "name": "The Stranger"
+  }
+]
