@@ -120,8 +120,9 @@ Locais e curiosidades ainda não visitados não são listados nem contados."
 
 ### Ordenação
 
-Locais e curiosidades aparecem na **ordem de declaração em `content/structure`**, que segue
-a ordem do Ship Log do jogo. Não ordenar por progresso: a lista pularia de lugar a cada fato
+Locais e curiosidades aparecem na **ordem de declaração em `content/structure`**: locais em
+ordem de órbita a partir do Sol, curiosidades na ordem do enum do jogo
+([content-model.md](./content-model.md)). Não ordenar por progresso: a lista pularia de lugar a cada fato
 novo. O `projectView` já entrega nessa ordem; o renderer não reordena.
 
 ### Estados da tela
@@ -226,8 +227,9 @@ Não entra:
    contagem e `achievement:reveal` precisa de um id. Resolver na spec de conquistas (Fase 3):
    ou a `View` de `none` ganha uma lista de `{ id, reachable }`, ou o opt-in só existe a partir
    de `titles`.
-2. **Denominador de sinais.** Confirmar o total de sinais no conteúdo quando o dump for
-   importado. O mock usou 31 (chaves vistas em saves reais).
-3. **Ordem do Ship Log.** Confirmar que o dump comunitário preserva a ordem de exibição do
-   jogo; se não, `Location` e `Curiosity` em `structure` precisam de `order`.
+2. ~~**Denominador de sinais.**~~ Resolvido em 2026-10-27: são 31 sinais, os valores do enum
+   `SignalName` do jogo sem o `Default`.
+3. ~~**Ordem do Ship Log.**~~ Resolvido em 2026-10-27: o jogo não tem uma lista ordenada de
+   locais (o modo mapa é espacial). A ordem é a de órbita, escrita no suplemento do import; sem
+   campo `order`.
 4. **N tentativas de `partial-write`** antes de mostrar erro: número a fixar na spec do watcher.

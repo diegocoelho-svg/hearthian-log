@@ -1,1 +1,2246 @@
-[]
+[
+  {
+    "id": "S_SUNSTATION_R1",
+    "entryId": "S_SUNSTATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "S_SUNSTATION_R2",
+    "entryId": "S_SUNSTATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "S_SUNSTATION_R3",
+    "entryId": "S_SUNSTATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "S_SUNSTATION_X1",
+    "entryId": "S_SUNSTATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "S_SUNSTATION_X2",
+    "entryId": "S_SUNSTATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "S_SUNSTATION_X3",
+    "entryId": "S_SUNSTATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "S_SUNSTATION_X4",
+    "entryId": "S_SUNSTATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_CHERT_X1",
+    "entryId": "CT_CHERT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_CHERT_X2",
+    "entryId": "CT_CHERT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_CHERT_X3",
+    "entryId": "CT_CHERT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_CHERT_X4",
+    "entryId": "CT_CHERT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_CHERT_X5",
+    "entryId": "CT_CHERT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_QUANTUM_MOON_LOCATOR_X1",
+    "entryId": "CT_QUANTUM_MOON_LOCATOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_QUANTUM_MOON_LOCATOR_X2",
+    "entryId": "CT_QUANTUM_MOON_LOCATOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_QUANTUM_MOON_LOCATOR_X3",
+    "entryId": "CT_QUANTUM_MOON_LOCATOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_GRAVITY_CANNON_R1",
+    "entryId": "CT_GRAVITY_CANNON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_GRAVITY_CANNON_X1",
+    "entryId": "CT_GRAVITY_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_GRAVITY_CANNON_X2",
+    "entryId": "CT_GRAVITY_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_ESCAPE_POD_R1",
+    "entryId": "CT_ESCAPE_POD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_ESCAPE_POD_R2",
+    "entryId": "CT_ESCAPE_POD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_ESCAPE_POD_X1",
+    "entryId": "CT_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_ESCAPE_POD_X2",
+    "entryId": "CT_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB_R1",
+    "entryId": "CT_HIGH_ENERGY_LAB",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB_R2",
+    "entryId": "CT_HIGH_ENERGY_LAB",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB_R3",
+    "entryId": "CT_HIGH_ENERGY_LAB",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB_X1",
+    "entryId": "CT_HIGH_ENERGY_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB_X2",
+    "entryId": "CT_HIGH_ENERGY_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_HIGH_ENERGY_LAB_X3",
+    "entryId": "CT_HIGH_ENERGY_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_WARP_TOWER_MAP_R1",
+    "entryId": "CT_WARP_TOWER_MAP",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_WARP_TOWER_MAP_X1",
+    "entryId": "CT_WARP_TOWER_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_WARP_TOWER_MAP_X4",
+    "entryId": "CT_WARP_TOWER_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_WARP_TOWER_MAP_X3",
+    "entryId": "CT_WARP_TOWER_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_WARP_TOWER_MAP_X2",
+    "entryId": "CT_WARP_TOWER_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_R1",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_R3",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_R4",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_R5",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_R2",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_X1",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_X2",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_SUNLESS_CITY_X3",
+    "entryId": "CT_SUNLESS_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_R1",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_R2",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_R3",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_R4",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_X1",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_X2",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_ANGLERFISH_FOSSIL_X3",
+    "entryId": "CT_ANGLERFISH_FOSSIL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_QUANTUM_CAVES_R1",
+    "entryId": "CT_QUANTUM_CAVES",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_QUANTUM_CAVES_X1",
+    "entryId": "CT_QUANTUM_CAVES",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_QUANTUM_CAVES_X2",
+    "entryId": "CT_QUANTUM_CAVES",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_LAKEBED_CAVERN_R1",
+    "entryId": "CT_LAKEBED_CAVERN",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_LAKEBED_CAVERN_R2",
+    "entryId": "CT_LAKEBED_CAVERN",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "CT_LAKEBED_CAVERN_X1",
+    "entryId": "CT_LAKEBED_CAVERN",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_LAKEBED_CAVERN_X2",
+    "entryId": "CT_LAKEBED_CAVERN",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "CT_LAKEBED_CAVERN_X3",
+    "entryId": "CT_LAKEBED_CAVERN",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_WARP_TOWERS_X1",
+    "entryId": "TT_WARP_TOWERS",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_WARP_TOWERS_X2",
+    "entryId": "TT_WARP_TOWERS",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_R1",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_R2",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_R3",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_R4",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_X1",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_X2",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_X3",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_X4",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TT_TIME_LOOP_DEVICE_X5",
+    "entryId": "TT_TIME_LOOP_DEVICE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_VILLAGE_X1",
+    "entryId": "TH_VILLAGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_VILLAGE_X2",
+    "entryId": "TH_VILLAGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_VILLAGE_X3",
+    "entryId": "TH_VILLAGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_ZERO_G_CAVE_R1",
+    "entryId": "TH_ZERO_G_CAVE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TH_ZERO_G_CAVE_X1",
+    "entryId": "TH_ZERO_G_CAVE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_ZERO_G_CAVE_X2",
+    "entryId": "TH_ZERO_G_CAVE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_IMPACT_CRATER_R1",
+    "entryId": "TH_IMPACT_CRATER",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TH_IMPACT_CRATER_X1",
+    "entryId": "TH_IMPACT_CRATER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_IMPACT_CRATER_X2",
+    "entryId": "TH_IMPACT_CRATER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_IMPACT_CRATER_X3",
+    "entryId": "TH_IMPACT_CRATER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_NOMAI_MINE_R1",
+    "entryId": "TH_NOMAI_MINE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TH_NOMAI_MINE_X1",
+    "entryId": "TH_NOMAI_MINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_NOMAI_MINE_X2",
+    "entryId": "TH_NOMAI_MINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_NOMAI_MINE_X3",
+    "entryId": "TH_NOMAI_MINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_QUANTUM_SHARD_R1",
+    "entryId": "TH_QUANTUM_SHARD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TH_QUANTUM_SHARD_R2",
+    "entryId": "TH_QUANTUM_SHARD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TH_QUANTUM_SHARD_X1",
+    "entryId": "TH_QUANTUM_SHARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_QUANTUM_SHARD_X2",
+    "entryId": "TH_QUANTUM_SHARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TH_RADIO_TOWER_X1",
+    "entryId": "TH_RADIO_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TM_ESKER_R1",
+    "entryId": "TM_ESKER",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TM_ESKER_X1",
+    "entryId": "TM_ESKER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TM_NORTH_POLE_R1",
+    "entryId": "TM_NORTH_POLE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TM_NORTH_POLE_X1",
+    "entryId": "TM_NORTH_POLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TM_EYE_LOCATOR_R1",
+    "entryId": "TM_EYE_LOCATOR",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TM_EYE_LOCATOR_R2",
+    "entryId": "TM_EYE_LOCATOR",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "TM_EYE_LOCATOR_X1",
+    "entryId": "TM_EYE_LOCATOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "TM_EYE_LOCATOR_X2",
+    "entryId": "TM_EYE_LOCATOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_RIEBECK_R1",
+    "entryId": "BH_RIEBECK",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_RIEBECK_R2",
+    "entryId": "BH_RIEBECK",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_RIEBECK_R3",
+    "entryId": "BH_RIEBECK",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_RIEBECK_R4",
+    "entryId": "BH_RIEBECK",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_RIEBECK_X1",
+    "entryId": "BH_RIEBECK",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_RIEBECK_X2",
+    "entryId": "BH_RIEBECK",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_GRAVITY_CANNON_X1",
+    "entryId": "BH_GRAVITY_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_GRAVITY_CANNON_X2",
+    "entryId": "BH_GRAVITY_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_RESEARCH_TOWER_R1",
+    "entryId": "BH_QUANTUM_RESEARCH_TOWER",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_RESEARCH_TOWER_R2",
+    "entryId": "BH_QUANTUM_RESEARCH_TOWER",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_RESEARCH_TOWER_X1",
+    "entryId": "BH_QUANTUM_RESEARCH_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_RESEARCH_TOWER_X2",
+    "entryId": "BH_QUANTUM_RESEARCH_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_RESEARCH_TOWER_X3",
+    "entryId": "BH_QUANTUM_RESEARCH_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_SHARD_R1",
+    "entryId": "BH_QUANTUM_SHARD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_SHARD_X1",
+    "entryId": "BH_QUANTUM_SHARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_SHARD_X2",
+    "entryId": "BH_QUANTUM_SHARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_QUANTUM_SHARD_X3",
+    "entryId": "BH_QUANTUM_SHARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_WARP_RECEIVER_X1",
+    "entryId": "BH_WARP_RECEIVER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_WARP_RECEIVER_X2",
+    "entryId": "BH_WARP_RECEIVER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_ESCAPE_POD_R1",
+    "entryId": "BH_ESCAPE_POD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_ESCAPE_POD_X1",
+    "entryId": "BH_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_ESCAPE_POD_X2",
+    "entryId": "BH_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OLD_SETTLEMENT_R1",
+    "entryId": "BH_OLD_SETTLEMENT",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_OLD_SETTLEMENT_X1",
+    "entryId": "BH_OLD_SETTLEMENT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OLD_SETTLEMENT_X2",
+    "entryId": "BH_OLD_SETTLEMENT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OLD_SETTLEMENT_X3",
+    "entryId": "BH_OLD_SETTLEMENT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OLD_SETTLEMENT_X4",
+    "entryId": "BH_OLD_SETTLEMENT",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_MURAL_3_X1",
+    "entryId": "BH_MURAL_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_MURAL_2_X1",
+    "entryId": "BH_MURAL_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_MURAL_1_X1",
+    "entryId": "BH_MURAL_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_HANGING_CITY_R1",
+    "entryId": "BH_HANGING_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_HANGING_CITY_R2",
+    "entryId": "BH_HANGING_CITY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_HANGING_CITY_X1",
+    "entryId": "BH_HANGING_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_HANGING_CITY_X2",
+    "entryId": "BH_HANGING_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_HANGING_CITY_X3",
+    "entryId": "BH_HANGING_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_HANGING_CITY_X4",
+    "entryId": "BH_HANGING_CITY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_R1",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_R2",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_R3",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_R4",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_X4",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_X5",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_X6",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_X1",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_BLACK_HOLE_FORGE_X3",
+    "entryId": "BH_BLACK_HOLE_FORGE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_WARP_ALIGNMENT_MAP_X1",
+    "entryId": "BH_WARP_ALIGNMENT_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_WARP_ALIGNMENT_MAP_X2",
+    "entryId": "BH_WARP_ALIGNMENT_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_WARP_ALIGNMENT_MAP_X3",
+    "entryId": "BH_WARP_ALIGNMENT_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_WARP_ALIGNMENT_MAP_X4",
+    "entryId": "BH_WARP_ALIGNMENT_MAP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_R1",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_R2",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_R3",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_R4",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_X1",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_X2",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_X3",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_OBSERVATORY_X4",
+    "entryId": "BH_OBSERVATORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_TORNADO_SIMULATION_R1",
+    "entryId": "BH_TORNADO_SIMULATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "BH_TORNADO_SIMULATION_X1",
+    "entryId": "BH_TORNADO_SIMULATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "BH_TORNADO_SIMULATION_X2",
+    "entryId": "BH_TORNADO_SIMULATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "VM_VOLCANO_X1",
+    "entryId": "VM_VOLCANO",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "VM_VOLCANO_X2",
+    "entryId": "VM_VOLCANO",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "VM_VOLCANO_X3",
+    "entryId": "VM_VOLCANO",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_OCEAN_R1",
+    "entryId": "GD_OCEAN",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_OCEAN_R2",
+    "entryId": "GD_OCEAN",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_OCEAN_R3",
+    "entryId": "GD_OCEAN",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_OCEAN_X1",
+    "entryId": "GD_OCEAN",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_OCEAN_X2",
+    "entryId": "GD_OCEAN",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_GABBRO_ISLAND_R1",
+    "entryId": "GD_GABBRO_ISLAND",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_GABBRO_ISLAND_X0",
+    "entryId": "GD_GABBRO_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_GABBRO_ISLAND_X1",
+    "entryId": "GD_GABBRO_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_GABBRO_ISLAND_X2",
+    "entryId": "GD_GABBRO_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_GABBRO_ISLAND_X3",
+    "entryId": "GD_GABBRO_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_CONSTRUCTION_YARD_R1",
+    "entryId": "GD_CONSTRUCTION_YARD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_CONSTRUCTION_YARD_X1",
+    "entryId": "GD_CONSTRUCTION_YARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_CONSTRUCTION_YARD_X2",
+    "entryId": "GD_CONSTRUCTION_YARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_CONSTRUCTION_YARD_X3",
+    "entryId": "GD_CONSTRUCTION_YARD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_BRAMBLE_ISLAND_X1",
+    "entryId": "GD_BRAMBLE_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_ISLAND_R1",
+    "entryId": "GD_STATUE_ISLAND",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_ISLAND_R2",
+    "entryId": "GD_STATUE_ISLAND",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_ISLAND_X1",
+    "entryId": "GD_STATUE_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_ISLAND_X2",
+    "entryId": "GD_STATUE_ISLAND",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP_R1",
+    "entryId": "GD_STATUE_WORKSHOP",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP_R2",
+    "entryId": "GD_STATUE_WORKSHOP",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP_R3",
+    "entryId": "GD_STATUE_WORKSHOP",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP_X1",
+    "entryId": "GD_STATUE_WORKSHOP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP_X2",
+    "entryId": "GD_STATUE_WORKSHOP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_STATUE_WORKSHOP_X3",
+    "entryId": "GD_STATUE_WORKSHOP",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_QUANTUM_TOWER_R1",
+    "entryId": "GD_QUANTUM_TOWER",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "GD_QUANTUM_TOWER_X1",
+    "entryId": "GD_QUANTUM_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_QUANTUM_TOWER_X2",
+    "entryId": "GD_QUANTUM_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_QUANTUM_TOWER_X3",
+    "entryId": "GD_QUANTUM_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "GD_QUANTUM_TOWER_X4",
+    "entryId": "GD_QUANTUM_TOWER",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_R1",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_R2",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_R4",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_R3",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_X1",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_X2",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON_X3",
+    "entryId": "ORBITAL_PROBE_CANNON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_R1",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_R5",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_R4",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_R2",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_R3",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_X1",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_X2",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_SUNKEN_MODULE_X3",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_EYE_COORDINATES_X1",
+    "entryId": "OPC_SUNKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_BROKEN_MODULE_R1",
+    "entryId": "OPC_BROKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_BROKEN_MODULE_R2",
+    "entryId": "OPC_BROKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_BROKEN_MODULE_R3",
+    "entryId": "OPC_BROKEN_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_BROKEN_MODULE_X1",
+    "entryId": "OPC_BROKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_BROKEN_MODULE_X2",
+    "entryId": "OPC_BROKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_BROKEN_MODULE_X3",
+    "entryId": "OPC_BROKEN_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_INTACT_MODULE_R1",
+    "entryId": "OPC_INTACT_MODULE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "OPC_INTACT_MODULE_X1",
+    "entryId": "OPC_INTACT_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "OPC_INTACT_MODULE_X2",
+    "entryId": "OPC_INTACT_MODULE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_FELDSPAR_R1",
+    "entryId": "DB_FELDSPAR",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_FELDSPAR_R2",
+    "entryId": "DB_FELDSPAR",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_FELDSPAR_X1",
+    "entryId": "DB_FELDSPAR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_FELDSPAR_X2",
+    "entryId": "DB_FELDSPAR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_FELDSPAR_X3",
+    "entryId": "DB_FELDSPAR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_FROZEN_JELLYFISH_R1",
+    "entryId": "DB_FROZEN_JELLYFISH",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_FROZEN_JELLYFISH_X1",
+    "entryId": "DB_FROZEN_JELLYFISH",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_FROZEN_JELLYFISH_X2",
+    "entryId": "DB_FROZEN_JELLYFISH",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_FROZEN_JELLYFISH_X3",
+    "entryId": "DB_FROZEN_JELLYFISH",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_ESCAPE_POD_R1",
+    "entryId": "DB_ESCAPE_POD",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_ESCAPE_POD_X1",
+    "entryId": "DB_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_ESCAPE_POD_X2",
+    "entryId": "DB_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_ESCAPE_POD_X3",
+    "entryId": "DB_ESCAPE_POD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_NOMAI_GRAVE_R1",
+    "entryId": "DB_NOMAI_GRAVE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_NOMAI_GRAVE_R2",
+    "entryId": "DB_NOMAI_GRAVE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_NOMAI_GRAVE_X1",
+    "entryId": "DB_NOMAI_GRAVE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_NOMAI_GRAVE_X2",
+    "entryId": "DB_NOMAI_GRAVE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_NOMAI_GRAVE_X3",
+    "entryId": "DB_NOMAI_GRAVE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_NOMAI_GRAVE_X4",
+    "entryId": "DB_NOMAI_GRAVE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_R1",
+    "entryId": "DB_VESSEL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_R2",
+    "entryId": "DB_VESSEL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_R3",
+    "entryId": "DB_VESSEL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_R4",
+    "entryId": "DB_VESSEL",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_X1",
+    "entryId": "DB_VESSEL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_X2",
+    "entryId": "DB_VESSEL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_X3",
+    "entryId": "DB_VESSEL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_X4",
+    "entryId": "DB_VESSEL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_X5",
+    "entryId": "DB_VESSEL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "DB_VESSEL_X6",
+    "entryId": "DB_VESSEL",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_SHUTTLE_X1",
+    "entryId": "COMET_SHUTTLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_SHUTTLE_X2",
+    "entryId": "COMET_SHUTTLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_SHUTTLE_X3",
+    "entryId": "COMET_SHUTTLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_SHUTTLE_X4",
+    "entryId": "COMET_SHUTTLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_INTERIOR_R1",
+    "entryId": "COMET_INTERIOR",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "COMET_INTERIOR_R2",
+    "entryId": "COMET_INTERIOR",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "COMET_INTERIOR_X1",
+    "entryId": "COMET_INTERIOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_INTERIOR_X2",
+    "entryId": "COMET_INTERIOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_INTERIOR_X3",
+    "entryId": "COMET_INTERIOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "COMET_INTERIOR_X4",
+    "entryId": "COMET_INTERIOR",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QUANTUM_MOON_R1",
+    "entryId": "QUANTUM_MOON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QUANTUM_MOON_R2",
+    "entryId": "QUANTUM_MOON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QUANTUM_MOON_R3",
+    "entryId": "QUANTUM_MOON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QUANTUM_MOON_R4",
+    "entryId": "QUANTUM_MOON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QUANTUM_MOON_X1",
+    "entryId": "QUANTUM_MOON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QUANTUM_MOON_X2",
+    "entryId": "QUANTUM_MOON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SHUTTLE_X1",
+    "entryId": "QM_SHUTTLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SHUTTLE_X2",
+    "entryId": "QM_SHUTTLE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SHRINE_R1",
+    "entryId": "QM_SHRINE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QM_SHRINE_X1",
+    "entryId": "QM_SHRINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SHRINE_X2",
+    "entryId": "QM_SHRINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SHRINE_X3",
+    "entryId": "QM_SHRINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SHRINE_X4",
+    "entryId": "QM_SHRINE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_R1",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_R2",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_R3",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_X1",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_X3",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_X5",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_X4",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_X2",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "QM_SIXTH_LOCATION_X6",
+    "entryId": "QM_SIXTH_LOCATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "WHS_R1",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "WHS_R2",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "WHS_R3",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "WHS_R4",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "WHS_X4",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "WHS_X1",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "WHS_X2",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "WHS_X3",
+    "entryId": "WHITE_HOLE_STATION",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_RING_WORLD_X1",
+    "entryId": "IP_RING_WORLD",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_X1",
+    "entryId": "IP_ZONE_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_X2",
+    "entryId": "IP_ZONE_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_STORY_X1",
+    "entryId": "IP_ZONE_1_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_STORY_X2",
+    "entryId": "IP_ZONE_1_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_SECRET_R1",
+    "entryId": "IP_ZONE_1_SECRET",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_SECRET_X2",
+    "entryId": "IP_ZONE_1_SECRET",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_1_SECRET_X1",
+    "entryId": "IP_ZONE_1_SECRET",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_X1",
+    "entryId": "IP_ZONE_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_X2",
+    "entryId": "IP_ZONE_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_STORY_X1",
+    "entryId": "IP_ZONE_2_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_STORY_X2",
+    "entryId": "IP_ZONE_2_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_SECRET_R1",
+    "entryId": "IP_ZONE_2_SECRET",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_SECRET_X2",
+    "entryId": "IP_ZONE_2_SECRET",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_SECRET_X1",
+    "entryId": "IP_ZONE_2_SECRET",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_LIGHTHOUSE_R1",
+    "entryId": "IP_ZONE_2_LIGHTHOUSE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_LIGHTHOUSE_X2",
+    "entryId": "IP_ZONE_2_LIGHTHOUSE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_LIGHTHOUSE_X1",
+    "entryId": "IP_ZONE_2_LIGHTHOUSE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_CODE_R1",
+    "entryId": "IP_ZONE_2_CODE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_CODE_R2",
+    "entryId": "IP_ZONE_2_CODE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_CODE_X1",
+    "entryId": "IP_ZONE_2_CODE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_CODE_X2",
+    "entryId": "IP_ZONE_2_CODE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_2_CODE_X3",
+    "entryId": "IP_ZONE_2_CODE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_X1",
+    "entryId": "IP_ZONE_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_SECRET_R1",
+    "entryId": "IP_ZONE_3_SECRET",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_SECRET_X2",
+    "entryId": "IP_ZONE_3_SECRET",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_SECRET_X1",
+    "entryId": "IP_ZONE_3_SECRET",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_STORY_X1",
+    "entryId": "IP_ZONE_3_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_STORY_X2",
+    "entryId": "IP_ZONE_3_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_ENTRANCE_R1",
+    "entryId": "IP_ZONE_3_ENTRANCE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_ENTRANCE_X1",
+    "entryId": "IP_ZONE_3_ENTRANCE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_ENTRANCE_X2",
+    "entryId": "IP_ZONE_3_ENTRANCE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_ENTRANCE_X3",
+    "entryId": "IP_ZONE_3_ENTRANCE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_LAB_R1",
+    "entryId": "IP_ZONE_3_LAB",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_LAB_X1",
+    "entryId": "IP_ZONE_3_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_LAB_X3",
+    "entryId": "IP_ZONE_3_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_LAB_X4",
+    "entryId": "IP_ZONE_3_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_3_LAB_X2",
+    "entryId": "IP_ZONE_3_LAB",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_MAP_PROJECTION_1_X1",
+    "entryId": "IP_MAP_PROJECTION_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_MAP_PROJECTION_2_X1",
+    "entryId": "IP_MAP_PROJECTION_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_MAP_PROJECTION_3_X1",
+    "entryId": "IP_MAP_PROJECTION_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_4_X2",
+    "entryId": "IP_ZONE_4",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_4_X3",
+    "entryId": "IP_ZONE_4",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_4_X4",
+    "entryId": "IP_ZONE_4",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_4_STORY_X1",
+    "entryId": "IP_ZONE_4_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_ZONE_4_STORY_X2",
+    "entryId": "IP_ZONE_4_STORY",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_PRISON_R1",
+    "entryId": "IP_PRISON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_PRISON_R2",
+    "entryId": "IP_PRISON",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_PRISON_X1",
+    "entryId": "IP_PRISON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_PRISON_X2",
+    "entryId": "IP_PRISON",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LAKE_R1",
+    "entryId": "IP_DREAM_LAKE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LAKE_R2",
+    "entryId": "IP_DREAM_LAKE",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LAKE_X1",
+    "entryId": "IP_DREAM_LAKE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LAKE_X2",
+    "entryId": "IP_DREAM_LAKE",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_R4",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_R1",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_R2",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_R3",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_X2",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_X3",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_X4",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_SARCOPHAGUS_X5",
+    "entryId": "IP_SARCOPHAGUS",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_1_R1",
+    "entryId": "IP_DREAM_ZONE_1",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_1_X1",
+    "entryId": "IP_DREAM_ZONE_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_1_X2",
+    "entryId": "IP_DREAM_ZONE_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_1_X3",
+    "entryId": "IP_DREAM_ZONE_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_1_R1",
+    "entryId": "IP_DREAM_LIBRARY_1",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_1_X1",
+    "entryId": "IP_DREAM_LIBRARY_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_1_X2",
+    "entryId": "IP_DREAM_LIBRARY_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_1_STORY_X1",
+    "entryId": "IP_DREAM_LIBRARY_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_1_STORY_X2",
+    "entryId": "IP_DREAM_LIBRARY_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_1_RULE_X1",
+    "entryId": "IP_DREAM_LIBRARY_1",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_2_R1",
+    "entryId": "IP_DREAM_ZONE_2",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_2_X1",
+    "entryId": "IP_DREAM_ZONE_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_2_X2",
+    "entryId": "IP_DREAM_ZONE_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_2_X3",
+    "entryId": "IP_DREAM_ZONE_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_2_X4",
+    "entryId": "IP_DREAM_ZONE_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_2_R1",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_2_X1",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_2_X2",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_2_STORY_X1",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_2_STORY_X2",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_2_RULE_X1",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_2_RULE_X2",
+    "entryId": "IP_DREAM_LIBRARY_2",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_3_R1",
+    "entryId": "IP_DREAM_ZONE_3",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_3_X1",
+    "entryId": "IP_DREAM_ZONE_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_ZONE_3_X2",
+    "entryId": "IP_DREAM_ZONE_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_3_R1",
+    "entryId": "IP_DREAM_LIBRARY_3",
+    "kind": "rumor",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_3_X1",
+    "entryId": "IP_DREAM_LIBRARY_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_LIBRARY_3_X2",
+    "entryId": "IP_DREAM_LIBRARY_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_3_STORY_X1",
+    "entryId": "IP_DREAM_LIBRARY_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_3_STORY_X2",
+    "entryId": "IP_DREAM_LIBRARY_3",
+    "kind": "explore",
+    "targets": []
+  },
+  {
+    "id": "IP_DREAM_3_RULE_X1",
+    "entryId": "IP_DREAM_LIBRARY_3",
+    "kind": "explore",
+    "targets": []
+  }
+]

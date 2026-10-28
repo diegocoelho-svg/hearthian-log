@@ -12,13 +12,22 @@ Tabela estática que dá sentido aos `FACT_ID`s do save, mais o conteúdo autora
 
 | Dado | Origem | Status |
 |---|---|---|
-| Fatos, entradas, locais, curiosidades, grafo | Dump do Ship Log extraído pela comunidade (mods, wikis) | **A localizar e registrar aqui** |
-| Sinais e frequências | Idem | A localizar |
+| Fatos, entradas, locais, curiosidades | XMLs do Ship Log em `sharedassets1.assets` da instalação local, via `scripts/import-ship-log.ts` | Importado (1.1.16.1372) |
+| Nomes de locais e curiosidades | Tabela de tradução inglesa em `resources.assets` e `<Name>` das entradas `<IsCuriosity/>` | Importado |
+| Sinais e frequências | Enum `SignalName` da `Assembly-CSharp.dll`; frequência e local autorais | Importado; frequência por prefixo, não confirmada |
+| Grafo de rumores | `<SourceID>` dos `RumorFact` | Fase 2 — ver [Pendências](#pendências) |
 | Lista de conquistas | Steamworks (`GetAchievementDisplayAttribute`) + Steam DB | A extrair |
 | Dicas em camadas | **Autoral** | A escrever, uma conquista por vez |
 | Fatos relacionados a conquista | Autoral | A escrever |
 
 A fonte de cada arquivo fica em `packages/content/SOURCES.md` com URL, data e versão do jogo.
+O que o jogo não tem — ordem, `kind` e `parentId` dos locais, cores, frequência e local dos
+sinais — fica em `packages/content/scripts/ship-log-supplement.json`, fora de `data/`, para que
+regerar não apague trabalho autoral.
+
+Os locais são gravados em ordem de órbita a partir do Sol. O Ship Log do jogo é espacial no modo
+mapa e não define uma lista, então essa ordem é escolha nossa e a ordem do array é a ordem de
+exibição. Não existe campo `order`.
 
 ## Três entradas, três níveis de exposição
 
@@ -104,6 +113,19 @@ type AchievementText = {
 
 1. Todo arquivo bate com o schema Zod
 2. Toda referência (`entryId`, `locationId`, `curiosityId`, `targets`, `relatedFactIds`) existe
-3. Todo `id` em `names` e `text` existe em `structure`, e vice-versa
+3. Todo `id` em `names` e `text` existe em `structure`. O contrário — todo `id` de
+   `structure` coberto — é erro para locais, curiosidades e conquistas e **aviso** para
+   `names/fact-titles` e `text/facts`, que só são preenchidos na Fase 2
 4. Todo `FactId` visto em `packages/core/fixtures/` existe em `structure` (avisa, não falha)
 5. Nenhum arquivo de `structure` contém um valor de `names` ou `text` (grep por string)
+
+## Pendências
+
+1. **Fato não tem título no jogo.** O XML do Ship Log dá a fato só texto; quem tem nome é a
+   entrada (e alguns rumores têm `<RumorName>`). `names/fact-titles` e o nível `titles` de
+   [spoiler.md](./spoiler.md) assumem um título por fato. Resolver na spec da Fase 2: título vira
+   nome da entrada, `RumorName`, ou o nível muda.
+2. **Direção do rumor.** No jogo o `RumorFact` fica dentro da entrada de *destino*, e
+   `<SourceID>` é a entrada onde ele é encontrado. Na Fase 1, `entryId` é a entrada que contém
+   o fato — é assim que o jogo conta por local — e `targets` fica vazio. O modelo do grafo
+   (provavelmente `sourceEntryId` em vez de `targets`) entra com a spec da Fase 2.

@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "QUANTUM_MOON",
+    "color": "#8f6ad9"
+  },
+  {
+    "id": "SUNKEN_MODULE",
+    "color": "#3f8fd2"
+  },
+  {
+    "id": "VESSEL",
+    "color": "#3fae6a"
+  },
+  {
+    "id": "TIME_LOOP",
+    "color": "#e08a2e"
+  },
+  {
+    "id": "COMET_CORE",
+    "color": "#d2524a"
+  },
+  {
+    "id": "INVISIBLE_PLANET",
+    "color": "#c9a227"
+  }
+]

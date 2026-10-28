@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "QUANTUM_MOON",
+    "name": "Quantum Moon"
+  },
+  {
+    "id": "SUNKEN_MODULE",
+    "name": "Orbital Probe Cannon"
+  },
+  {
+    "id": "VESSEL",
+    "name": "The Vessel"
+  },
+  {
+    "id": "TIME_LOOP",
+    "name": "Ash Twin Project"
+  },
+  {
+    "id": "COMET_CORE",
+    "name": "Ruptured Core"
+  },
+  {
+    "id": "INVISIBLE_PLANET",
+    "name": "The Stranger"
+  }
+]

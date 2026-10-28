@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "SUN_STATION",
+    "kind": "station",
+    "parentId": null
+  },
+  {
+    "id": "CAVE_TWIN",
+    "kind": "planet",
+    "parentId": null
+  },
+  {
+    "id": "TOWER_TWIN",
+    "kind": "planet",
+    "parentId": null
+  },
+  {
+    "id": "TIMBER_HEARTH",
+    "kind": "planet",
+    "parentId": null
+  },
+  {
+    "id": "TIMBER_MOON",
+    "kind": "moon",
+    "parentId": "TIMBER_HEARTH"
+  },
+  {
+    "id": "BRITTLE_HOLLOW",
+    "kind": "planet",
+    "parentId": null
+  },
+  {
+    "id": "VOLCANIC_MOON",
+    "kind": "moon",
+    "parentId": "BRITTLE_HOLLOW"
+  },
+  {
+    "id": "GIANTS_DEEP",
+    "kind": "planet",
+    "parentId": null
+  },
+  {
+    "id": "ORBITAL_PROBE_CANNON",
+    "kind": "station",
+    "parentId": "GIANTS_DEEP"
+  },
+  {
+    "id": "DARK_BRAMBLE",
+    "kind": "planet",
+    "parentId": null
+  },
+  {
+    "id": "COMET",
+    "kind": "other",
+    "parentId": null
+  },
+  {
+    "id": "QUANTUM_MOON",
+    "kind": "moon",
+    "parentId": null
+  },
+  {
+    "id": "WHITE_HOLE",
+    "kind": "other",
+    "parentId": null
+  },
+  {
+    "id": "INVISIBLE_PLANET",
+    "kind": "other",
+    "parentId": null
+  }
+]
